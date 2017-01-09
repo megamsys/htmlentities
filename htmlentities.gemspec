@@ -4,7 +4,7 @@ $:.unshift lib unless $:.include?(lib)
 require "htmlentities/version"
 
 spec = Gem::Specification.new do |s|
-  s.name             = "htmlentities"
+  s.name             = "megam_htmlentities"
   s.version          = HTMLEntities::VERSION::STRING
   s.author           = "Paul Battley"
   s.email            = "pbattley@gmail.com"
@@ -16,6 +16,6 @@ spec = Gem::Specification.new do |s|
   s.test_files       = Dir["test/*_test.rb"]
   s.has_rdoc         = true
   s.extra_rdoc_files = %w[History.txt COPYING.txt]
-  s.homepage         = "https://github.com/threedaymonk/htmlentities"
+  s.homepage         = "https://github.com/megamsys/htmlentities"
   s.add_development_dependency "rake", "~> 0"
 end
